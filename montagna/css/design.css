@@ -1,0 +1,42 @@
+body {font-family: 'Nunito', serif; font-size: 100%; color: var(--color3);}
+
+a {text-decoration: none; color: inherit;}
+
+.back-image {
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-image: url('../img/bck/1.jpg');
+}
+
+
+.long-separator {
+   width: 100%;
+   min-height: 100vw;
+
+}
+
+.centered {
+   text-align: center;
+}
+
+.btn-more {
+   background-color: var(--color1);
+   color: white;
+   text-align: center;
+   font-size: 1.5rem;
+   height: 100%;
+   /* padding: 2em 0;
+   box-sizing: border-box; */
+}
+.bg-navy{
+   background-color: var(--color3);
+}
+
+.about {text-align: justify; padding: 5% 5%;}
+
+@media screen and (orientation: lanscape) {
+   .long-separator {
+      max-height: 50vh;
+   }
+}
